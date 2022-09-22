@@ -1,0 +1,62 @@
+.container > div div{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border-radius: 1em;
+    box-shadow: 5px 8px 8px 8px #888888;
+    padding: 15px;
+    background-color: rgb(250, 248, 248);
+}
+#infoContainer {
+    min-height: 200px;
+}
+.navbar-brand {
+    margin-left: 15px;
+}
+.btn-group label:hover{
+    background-color: rgb(97, 183, 253);
+}
+.btn-group label {
+    background-color:rgb(39, 138, 177);
+    border: none;
+    box-shadow: 1px 3px 2px #888888;
+}
+.btn-group input[type="radio"]:checked + label {
+    background-color: rgb(0, 74, 104);
+}
+.navbar {
+    background-color: rgb(145, 204, 255);
+    
+}
+.wrapper {
+    background-color: rgb(197, 223, 238);
+    padding-bottom: 24px;
+    min-width: 350px;
+    min-height: 1000px;
+}
+.changeFont {
+    font-size: 2.5rem;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (max-width: 500px) {
+    .changeFont {
+        font-size: 2rem;
+    }
+    .btn-group label {
+        padding: .3rem .5rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .changeFont {
+        font-size: 1.5rem;
+    }
+    .btn-group label {
+        padding: .25rem .3rem;
+    }
+}
